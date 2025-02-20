@@ -1,5 +1,6 @@
 # PROGETTO CARTA FORBICE SASSO
 
+def scelta_mossa():
     print("Scegli: Carta (C), Forbice (F) o Sasso (S)")
     scelta = input("Scegli la mossa: ")
     return scelta
