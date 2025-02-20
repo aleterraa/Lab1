@@ -27,5 +27,15 @@ def gioco(scelta1, scelta2):
             print("Forbice batte carta")
 
 if __name__ == "__main__":
-    print("Questo script è eseguito direttamente")
-    scelta_mossa()
+    print("Benvenuto nella risorsa 'funzioni_utili'. Questa risorsa include due funzioni: scelta_mossa() e gioco(scelta1, scelta2)")
+    print("Ecco due demo di codice.")
+
+    # Esempio di utilizzo della funzione scelta_mossa
+    print("Demo: Scegli una mossa")
+    scelta = scelta_mossa()
+    print(f"La mossa che hai scelto è {scelta}")
+    
+    # Esempio di utilizzo della funzione gioco
+    scelta1 = "C"
+    scelta2 = "F"
+    print(f"{scelta1= } {scelta2= }. {gioco(scelta1, scelta2)}")
