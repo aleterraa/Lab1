@@ -16,3 +16,4 @@ while True:
     else:
         print("Scelta non valida! Scegliere: Sì o No")
 
+
