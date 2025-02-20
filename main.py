@@ -9,6 +9,8 @@ diz = {
         "Pareggi" : 0
     }
 
+nickname = input("Inserisci il tuo nickname: ")
+
 while True:
     risultato = gioco()
     print(risultato)
@@ -30,6 +32,7 @@ while True:
         # print(ris)
 
     elif richiesta == "No":
+        print(f" ----- Registro partite di {nickname} -----")
         pprint(diz)
         break
 
