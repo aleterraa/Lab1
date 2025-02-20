@@ -38,4 +38,5 @@ if __name__ == "__main__":
     # Esempio di utilizzo della funzione gioco
     scelta1 = "C"
     scelta2 = "F"
-    print(f"{scelta1= } {scelta2= }. {gioco(scelta1, scelta2)}")
+    print(f"{scelta1= } {scelta2= }")
+    gioco = gioco(scelta1, scelta2)
